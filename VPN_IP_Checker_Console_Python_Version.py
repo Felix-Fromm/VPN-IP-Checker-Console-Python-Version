@@ -21,7 +21,7 @@ def FirstKeyInput() :
     print("Insert API-Key:");
     Keyinput = input("");
     if Keyinput.lower() == "visit":
-        url = "https:#vpnapi.io/signup"
+        url = "https://vpnapi.io/signup"
         webbrowser.open(url, new=0, autoraise=True)
 
     else :
